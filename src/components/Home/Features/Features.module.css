@@ -1,0 +1,108 @@
+#main{
+    padding:5em 5em;
+}
+.Box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 6.2em;
+    border-radius: 5px;
+    margin-top: -20vh;
+    z-index: 2;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+}
+.subBox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 1rem 0;
+}
+a{
+    text-decoration: none;
+    color: #092753;
+}
+.teleIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background: #ededed;
+    margin: auto;
+    display: inline-block;
+}
+.subBox.teleIcon{
+    display: block;
+    margin-bottom: 1em;
+}
+.subBox.teleIcon{
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+    color: #0d7b2c;
+}
+span::before{
+        /* display: block; */
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: absolute;
+}
+span::after{
+        /* display: block; */
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: absolute;
+}
+.img{
+    margin-top: .7em;
+}
+.text{
+    display: block;
+    font-weight: 700;
+    font-size: .9em;
+}
+.text::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.text::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+/* national call center */
+.subBox+.subBox{
+    border-left: 1px solid #b0b0b0;
+    padding-left: 2.5rem;
+}
+.teleNum{
+    font-weight: 600;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+    color: #0d7b2c;
+    font-size: .9em;
+}
+.teleNum{
+    margin-bottom: 1.4em;
+    text-decoration: none;
+}
+.text{
+    font-size: .8em;
+}

@@ -1,0 +1,61 @@
+.processCard{
+    background: #fff;
+    box-shadow: 0 4px 4px hsl(0deg 0% 73% / 25%);
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 2.5rem 2.5rem;
+}
+.processHeader h2{
+    position: relative;
+    margin-right: 1.5em;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #212529;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.processHeader h2::before{
+    content: "";
+    position: absolute;
+    left: 3.1em;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: #ff483c;
+}
+
+/* card images style */
+#box{
+    padding: 0em 4em;
+}
+.registrationImg{
+    width:30%;
+    height: 50%;
+}
+h3{
+    font-size: 1em;
+    color: #212529;
+    font-weight: 500;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.regisPara{
+    font-size: .9em;
+    font-weight: 500;
+    color: #212529;
+    
+}
+
+/* download android app */
+#box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.googlePlayImg{
+    width: 50%;
+}

@@ -1,0 +1,165 @@
+#head{
+    background-image: url("../.../../../../img/banner.jpg");
+    height: 90vh;
+}
+#colLeft{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.boxOne{
+    margin-top: 4em;
+    border-radius: .8em;
+    background-color: #fff;
+    max-width: 22em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+
+}
+#colLeftImg{
+    width:auto;
+    height:4.8em;
+}
+#footerTilte{
+    color: #092753;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 26%;
+    height:.6em;
+    border-radius: .3em .3em;
+    margin-top: 1.4em;
+    background: #0a2f8d;
+}
+#nid{
+    margin-top: .9em;
+}
+.title{
+    font-size: 1.7em;
+    text-align: left;
+    margin-left: .3em;
+    color: #092753;
+}
+
+
+/* col right */
+#colRight{
+    display: flex;
+    justify-content:flex;
+    align-items:center;
+}
+.suBannerCard{
+    margin-top:.5em;
+}
+a.suBannerCard{
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+#cardStatus{
+    position: relative;
+}
+#cardCollect{
+    position: relative;
+}
+#cardFile{
+position: relative;
+}
+#cardQuestion{
+position: relative;
+}
+.suBannerCard{
+    width: 100%;
+    height: 4.6em;
+    background: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    margin-right: 1em;
+    width: auto;
+    height: 3.8em;
+}
+#imgTwo{
+    margin-right: 1em;
+    width: auto;
+    height: 2.7em;
+}
+
+a, a:hover {
+    color: #092753;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+#cardStatus:before {
+    background: #0d7b2c;
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#cardCollect:before {
+    background: #d8de00;
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#cardFile:before {
+    background: #25be88;
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#cardQuestion:before {
+    background: #5fc6cc;
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#title{
+    /* font-weight: bold; */
+    text-align: left;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    /* font-family: serif; */
+    text-transform: uppercase;
+}
