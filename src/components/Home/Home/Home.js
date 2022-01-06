@@ -2,6 +2,7 @@ import React from 'react';
 import Features from '../Features/Features';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Mujib from '../Mujib/Mujib';
 import Process from '../Process/Process';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
          <Header/>
          <Features/>
          <Process/>
+         <Mujib/>
          <Footer/>
         </>
     )

@@ -4,7 +4,6 @@ import registration from '../../../img/registration.png';
 import sms from '../../../img/sms.png';
 import hospital from '../../../img/hospital.png';
 import googlePlay from '../../../img/googlePlay.png';
-import { Link } from "react-router-dom";
 
 export default function Process() {
     return (
@@ -13,7 +12,6 @@ export default function Process() {
                 <div className={style.processHeader}>
                     <h2>The process of receiving the Covid-19 corona vaccine</h2>
                     <div className="mt-5" id={style.box}>
-
                         <div className="row">
                             <div className="col-md-4">
                                 <img className={style.registrationImg} src={registration} alt="" />
