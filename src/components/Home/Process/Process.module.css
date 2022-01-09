@@ -14,7 +14,6 @@ h2 {
     font-size: 2rem;
     color: #212529;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .processHeader h2::before{
@@ -41,7 +40,6 @@ h3{
     color: #212529;
     font-weight: 500;
     margin-top: 1em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .regisPara{
     font-size: .9em;

@@ -16,7 +16,6 @@ h2 {
     font-size: 2rem;
     color: #212529;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mujibHeader h2::before{

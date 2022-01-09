@@ -20,19 +20,19 @@ export default function Navbar() {
                                 <Link className="nav-link active" id={style.navitem}  aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/">Registration</Link>
+                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/registration">Registration</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" id={style.navItem} aria-current="page" to="/">Card</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/">Certificate</Link>
+                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/certificate">Certificate</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" id={style.navItem} aria-current="page" to="/">Verify Certificate</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/">
+                                <Link className="nav-link active" id={style.navItem} aria-current="page" to="/lang">
                                     <button id={style.btn}>বাংলা</button>
                                 </Link>
                             </li>
